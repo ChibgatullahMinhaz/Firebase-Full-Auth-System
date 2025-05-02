@@ -35,48 +35,32 @@ A plug-and-play authentication system built with Firebase, ready to integrate in
 
 ## 📁📂 Project Structure
 
-my-app/
-│
-├── client/ # React (frontend) folder
-│ ├── public/ # Static files (index.html, favicon, etc.)
-│ │
-│ ├── src/ # Main application source code
-│ │ ├── assets/ # Global assets (images, fonts, CSS)
-│ │ │
-│ │ ├── components/ # Reusable UI components (Button, Modal, etc.)
-│ │ │
-│ │ ├── features/ # Feature-specific logic (modular structure)
-│ │ │ ├── auth/ # Authentication (Login, Register, etc.)
-│ │ │ │ ├── components/ # Auth-specific UI components
-│ │ │ │ ├── pages/ # Auth-related pages
-│ │ │ │ │ ├── LoginPage.jsx
-│ │ │ │ │ ├── RegisterPage.jsx
-│ │ │ │ │ ├── ForgotPassword.jsx
-│ │ │ │ │ └── ResetPassword.jsx
-│ │ │ │ └── authSlice.js # Redux slice for auth (if using Redux)
-│ │ │ │
-│ │ │ ├── user/ # User profile, settings
-│ │ │ ├── posts/ # Blog or post-related logic
-│ │ │ ├── cart/ # Shopping cart feature
-│ │ │ ├── products/ # Product listing and details
-│ │ │ ├── orders/ # Order history and details
-│ │ │ └── dashboard/ # Dashboard-specific logic (Admin/User)
-│ │ │
-│ │ ├── hooks/ # Custom hooks (useAuth, useToggle, etc.)
-│ │ ├── layouts/ # Layouts (MainLayout, AdminLayout, etc.)
-│ │ ├── pages/ # General pages (Home, About, Contact)
-│ │ ├── routes/ # Route definitions/configs (React Router)
-│ │ ├── services/ # API logic (Axios, Firebase, etc.)
-│ │ ├── store/ # Global state (Redux or Zustand setup)
-│ │ ├── utils/ # Utility/helper function(formatDate, etc.)
-│ │ ├── App.jsx # Root app component
-│ │ └── main.jsx # App entry point (like index.js)
-│ │
-├── .env # Environment variables
-├── package.json # Project metadata and dependencies
-├── tailwind.config.js # Tailwind CSS config (if using)
-└── vite.config.js # Vite config (if using Vite)
 
+---
+
+### Description of Each Folder
+
+#### `client/`
+This folder contains the frontend React application.
+
+#### `public/`
+Contains static files that are served directly (e.g., `index.html`, `favicon.ico`).
+
+#### `src/`
+The source code for the application resides here.
+
+- **`assets/`**: This folder stores all the global assets like images, fonts, and global CSS files.
+- **`components/`**: Contains reusable UI components like buttons, modals, headers, etc.
+- **`features/`**: Organized by features. Each feature like `auth`, `user`, `cart`, `posts`, etc. has its own sub-folder.
+- **`hooks/`**: Contains custom React hooks that are used throughout the app.
+- **`layouts/`**: Different layouts for different pages (e.g., `MainLayout`, `AdminLayout`).
+- **`pages/`**: React components that represent individual pages such as `Home`, `About`, etc.
+- **`routes/`**: Contains route configuration using React Router.
+- **`services/`**: API calls and other external services like Axios or Firebase.
+- **`store/`**: Global state management using Redux or Zustand.
+- **`utils/`**: Utility functions, such as formatting dates, etc.
+
+---
 
 
 
