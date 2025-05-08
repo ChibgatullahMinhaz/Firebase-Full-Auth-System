@@ -31,22 +31,22 @@ A plug-and-play authentication system built with Firebase, ready to integrate in
 
 ---
 
-
-
 ## 📁📂 Project Structure
-
 
 ---
 
 ### Description of Each Folder
 
 #### `client/`
+
 This folder contains the frontend React application.
 
 #### `public/`
+
 Contains static files that are served directly (e.g., `index.html`, `favicon.ico`).
 
 #### `src/`
+
 The source code for the application resides here.
 
 - **`assets/`**: This folder stores all the global assets like images, fonts, and global CSS files.
@@ -62,14 +62,12 @@ The source code for the application resides here.
 
 ---
 
-
-
-
 ---
 
 ### Description of Each Folder
 
 #### `server/`
+
 This folder contains the backend code for the application.
 
 - **`config/`**: Holds configuration files for the server (e.g., database connection settings).
@@ -88,10 +86,6 @@ This folder contains the backend code for the application.
 - **`package.json`**: Contains metadata about the project, including the backend dependencies and scripts.
 
 ---
-
-
-
-
 
 ## 🚀 Get Started
 
